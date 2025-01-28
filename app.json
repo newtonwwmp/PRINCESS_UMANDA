@@ -1,105 +1,83 @@
 {
-  "name": "PRINCESS-UMANDA",
-  "description": "A feature-rich WhatsApp bot by Mihiranga",
-  "keywords": ["bot", "whatsapp", "node", "ytdl", "auto-reply"],
+  "name": "PRINCESS_UMANDA",
+  "description": "An easy and simple WhatsApp bot developed by Mahiya boy",
+  "keywords": ["bot", "node", "baileys", "whatsapp"],
   "logo": "https://telegra.ph/file/69187d066ef527a3024b1.jpg",
-  "repository": "https://github.com/yourusername/PRINCESS-UMANDA",
+  "repository": "https://github.com/newtonwwmp/MAHIYA-MD",
   "succes_url": "/",
   "stack": "container",
   "env": {
     "PREFIX": {
-      "description": "Choose your command prefix for the bot",
-      "value": "!",
+      "description": "choose your prefix of bot",
+      "value": ".",
       "required": true
     },
-    "AUTO_REPLY": {
-      "description": "Enable or disable auto-reply feature (yes/no)",
+    "AUTO_READ_STATUS": {
+      "description": "Your contact status will be read automatically(type yes to active or no to deactive ; don't write in capital letter)",
       "value": "yes",
       "required": false
     },
-    "AUTO_REPLY_MESSAGE": {
-      "description": "Set the auto-reply message when the bot is unavailable",
-      "value": "I am currently unavailable. Please leave a message!",
+    "AUTO_DOWNLOAD_STATUS": {
+      "description": "Your contact status will be downloaded automatically and sent to you(type yes to active or no to deactive ; don't write in capital letter)",
+      "value": "yes",
       "required": false
     },
-    "YTDL_QUALITY": {
-      "description": "Set the quality for YouTube downloads (highestaudio/highestvideo)",
-      "value": "highestaudio",
+    "PM_PERMIT": {
+      "description": "Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
+      "value": "no",
       "required": false
     },
-    "YTDL_FILTER": {
-      "description": "Set the filter for YouTube downloads (audioandvideo/audioonly)",
-      "value": "audioandvideo",
+    "BOT_NAME": {
+      "description": "put A name for your bot",
+      "value": "PRINCESS_UMANDA",
       "required": false
     },
-    "DOWNLOAD_PATH": {
-      "description": "Path where YouTube downloads will be stored",
-      "value": "./downloads",
+    "BOT_MENU_LINKS": {
+      "description": "add one or many link for your bot menu ; eg : url1,url2,url3.....",
+      "value": "https://telegra.ph/file/071b05b988ef85f5bf2a3.jpg",
       "required": false
     },
-    "MAX_DOWNLOAD_SIZE": {
-      "description": "Maximum file size (in MB) for YouTube downloads",
-      "value": "100",
+    "PUBLIC_MODE": {
+      "description": "type yes to put your bot on public mode or no to put it on private mod",
+      "value": "yes",
       "required": false
     },
-    "WEATHER_API_KEY": {
-      "description": "API Key for weather information",
-      "value": "your-weather-api-key",
+    "HEROKU_API_KEY": {
+      "description": "insert your heroku api-key (this is optional)",
       "required": false
     },
-    "WEATHER_LOCATION": {
-      "description": "Default location for weather info",
-      "value": "London",
+    "HEROKU_APP_NAME": {
+      "description": "insert your heroku APP NAME (this is optional)",
       "required": false
     },
-    "GOOGLE_API_KEY": {
-      "description": "API Key for Google search",
-      "value": "your-google-api-key",
-      "required": false
+    "SESSION_ID": {
+      "description": "put your session ID , make sure it starts with eyJub2I...",
+      "value": "",
+      "required": true
     },
-    "WIKIPEDIA_LANGUAGE": {
-      "description": "Language for Wikipedia search",
-      "value": "en",
-      "required": false
+    "OWNER_NAME": {
+      "desc": "Your Name",
+      "required": false,
+      "value": "MIHIRANGA"
     },
-    "STICKER_MAX_SIZE": {
-      "description": "Maximum image size (in MB) for sticker conversion",
-      "value": "5",
-      "required": false
+    "OWNER_NUMBER": {
+      "desc": "Your number , dont put '+' and put your area code(example of Togo '228')",
+      "required": false,
+      "value": "94715450089"
     },
-    "STICKER_FORMATS": {
-      "description": "Supported image formats for stickers",
-      "value": "png,jpg",
-      "required": false
+    "WARN_COUNT": {
+      "desc": "this is the limit of warn for warning commands",
+      "required": false,
+      "value": "3"
     },
-    "TTS_LANGUAGE": {
-      "description": "Language for Text-to-Speech (TTS)",
-      "value": "en",
-      "required": false
+    "STARTING_BOT_MESSAGE": {
+      "description": "if you don't want starting-bot-message put no else put yes",
+      "required": true,
+      "value": "yes"
     },
-    "TTS_RATE": {
-      "description": "Speech rate for Text-to-Speech (1 is normal speed)",
-      "value": "1",
-      "required": false
-    },
-    "ADMIN_PHONE_NUMBERS": {
-      "description": "Comma-separated list of admin phone numbers",
-      "value": "admin-phone-number1,admin-phone-number2",
-      "required": false
-    },
-    "RESTRICTED_COMMANDS": {
-      "description": "Restrict commands to admins only (true/false)",
-      "value": "true",
-      "required": false
-    },
-    "BOT_STATUS_SEEN": {
-      "description": "Enable or disable the 'status seen' feature (true/false)",
-      "value": "true",
-      "required": false
-    },
-    "BOT_ALIVE_MESSAGE": {
-      "description": "Message to show when the bot is alive",
-      "value": "I am alive!",
+    "PRESENCE": {
+      "description": "1 always online, 2 Auto typing always, 3 Recording audio.... always type choice number 📌",
+      "value": "3",
       "required": false
     }
   },
