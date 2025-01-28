@@ -1,21 +1,117 @@
 {
-  "name": "PRINCESS_UMANDA",
-  "description": "Javascript WhatsApp bot made by MIHIRANGA",
-  "logo": "https://telegra.ph/file/38a4ba6f7a51c15f5feaf.jpg",
-  "keywords": ["bot"],
-  "success_url": "/",
-
+  "name": "PRINCESS-UMANDA",
+  "description": "A feature-rich WhatsApp bot by Mihiranga",
+  "keywords": ["bot", "whatsapp", "node", "ytdl", "auto-reply"],
+  "logo": "https://telegra.ph/file/69187d066ef527a3024b1.jpg",
+  "repository": "https://github.com/yourusername/PRINCESS-UMANDA",
+  "succes_url": "/",
+  "stack": "container",
   "env": {
-    "SESSION_ID": {
-      "description": "Put the session-id here.",
+    "PREFIX": {
+      "description": "Choose your command prefix for the bot",
+      "value": "!",
       "required": true
-    }  
-},
-
-     "buildpacks": [
-        {
-            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
-        }
-     ],
-  "stack": "heroku-24"
+    },
+    "AUTO_REPLY": {
+      "description": "Enable or disable auto-reply feature (yes/no)",
+      "value": "yes",
+      "required": false
+    },
+    "AUTO_REPLY_MESSAGE": {
+      "description": "Set the auto-reply message when the bot is unavailable",
+      "value": "I am currently unavailable. Please leave a message!",
+      "required": false
+    },
+    "YTDL_QUALITY": {
+      "description": "Set the quality for YouTube downloads (highestaudio/highestvideo)",
+      "value": "highestaudio",
+      "required": false
+    },
+    "YTDL_FILTER": {
+      "description": "Set the filter for YouTube downloads (audioandvideo/audioonly)",
+      "value": "audioandvideo",
+      "required": false
+    },
+    "DOWNLOAD_PATH": {
+      "description": "Path where YouTube downloads will be stored",
+      "value": "./downloads",
+      "required": false
+    },
+    "MAX_DOWNLOAD_SIZE": {
+      "description": "Maximum file size (in MB) for YouTube downloads",
+      "value": "100",
+      "required": false
+    },
+    "WEATHER_API_KEY": {
+      "description": "API Key for weather information",
+      "value": "your-weather-api-key",
+      "required": false
+    },
+    "WEATHER_LOCATION": {
+      "description": "Default location for weather info",
+      "value": "London",
+      "required": false
+    },
+    "GOOGLE_API_KEY": {
+      "description": "API Key for Google search",
+      "value": "your-google-api-key",
+      "required": false
+    },
+    "WIKIPEDIA_LANGUAGE": {
+      "description": "Language for Wikipedia search",
+      "value": "en",
+      "required": false
+    },
+    "STICKER_MAX_SIZE": {
+      "description": "Maximum image size (in MB) for sticker conversion",
+      "value": "5",
+      "required": false
+    },
+    "STICKER_FORMATS": {
+      "description": "Supported image formats for stickers",
+      "value": "png,jpg",
+      "required": false
+    },
+    "TTS_LANGUAGE": {
+      "description": "Language for Text-to-Speech (TTS)",
+      "value": "en",
+      "required": false
+    },
+    "TTS_RATE": {
+      "description": "Speech rate for Text-to-Speech (1 is normal speed)",
+      "value": "1",
+      "required": false
+    },
+    "ADMIN_PHONE_NUMBERS": {
+      "description": "Comma-separated list of admin phone numbers",
+      "value": "admin-phone-number1,admin-phone-number2",
+      "required": false
+    },
+    "RESTRICTED_COMMANDS": {
+      "description": "Restrict commands to admins only (true/false)",
+      "value": "true",
+      "required": false
+    },
+    "BOT_STATUS_SEEN": {
+      "description": "Enable or disable the 'status seen' feature (true/false)",
+      "value": "true",
+      "required": false
+    },
+    "BOT_ALIVE_MESSAGE": {
+      "description": "Message to show when the bot is alive",
+      "value": "I am alive!",
+      "required": false
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ]
 }
