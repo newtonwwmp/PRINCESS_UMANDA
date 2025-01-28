@@ -1,0 +1,14 @@
+{
+  "name": "PRINCESS_UMANDA",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot for auto-status seen and YouTube downloads",
+  "main": "index.js",
+  "dependencies": {
+    "whatsapp-web.js": "^1.21.0",
+    "ytdl-core": "^4.11.5",
+    "fs": "latest"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
