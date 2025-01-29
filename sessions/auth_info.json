@@ -1,7 +1,0 @@
-{
-  "clientID": "unique-client-id",
-  "serverToken": "unique-server-token",
-  "clientToken": "unique-client-token",
-  "encKey": "base64-encoded-encryption-key",
-  "macKey": "base64-encoded-mac-key"
-}
