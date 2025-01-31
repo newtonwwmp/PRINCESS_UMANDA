@@ -9,8 +9,9 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/newtonwwmp/PRINCESS_UMANDA.git  /root/PrincessUmada
-WORKDIR /root/PrincessUmada/
+RUN git clone https://github.com/newtonwwmp/MAHIYA-MD.git  /root/Mahiyamd
+WORKDIR /root/Mahiyamd/
+
 
 COPY package.json .
 RUN npm install pm2 -g
