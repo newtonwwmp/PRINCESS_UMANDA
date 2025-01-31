@@ -1,5 +1,5 @@
 {
-  "name": "PRINCESS_UMANDA",
+  "name": "MAHIYA-MD",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
@@ -15,9 +15,9 @@
     "Feenix-Md",
     "whatsapp",
     "whatsapp-bot",
-    "PRINCESS_UMANDA"
+    "MAHIYA"
   ],
-  "author": "PRINCESS_UMANDA",
+  "author": "MAHIYA",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
