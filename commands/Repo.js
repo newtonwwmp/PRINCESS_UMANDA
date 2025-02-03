@@ -12,7 +12,7 @@ king({
     auteurMessage: _0x45fd7b
   } = _0x270eb0;
   try {
-    const _0x42fd81 = await fetch("https://api.github.com/repos/franceking1/PRINCESS_UMANDA");
+    const _0x42fd81 = await fetch("https://github.com/newtonwwmp/PRINCESS_UMANDA");
     const _0x29108f = await _0x42fd81.json();
     if (_0x29108f) {
       const _0x54863e = {
