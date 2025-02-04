@@ -18,7 +18,7 @@ king({
       'externalAdReply': {
         'sourceUrl': "##",
         'mediaType': 0x1,
-        'mediaUrl': "https://telegra.ph/file/6771f559b5e3138ee8610.jpg",
+        'mediaUrl': "https://i.ibb.co/Xr29V5bn/4b355f8309ae5bca.jpg",
         'title': "Join Our WhatsApp Group",
         'body': "Click to join the official PRINCESS_UMANDA WhatsApp group!"
       }
