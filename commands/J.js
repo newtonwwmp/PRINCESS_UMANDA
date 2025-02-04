@@ -468,7 +468,7 @@ king(_0x342a55, async (_0xe58255, _0x37f243, _0x10613e) => {
     totalUsers: _0x3fc6e9
   } = await fetchGitHubStats();
   const _0x1654b0 = _0x3fc6e9.toLocaleString();
-  let _0x34fa7b = "\n*" + _0x54a9ac + " " + _0x37fab2 + "*\n\n╭────✧𝐅𝐋𝐀𝐒𝐇-𝐌𝐃✧────◆\n┃❃╭──────────────\n┃❃│ *User :*  " + s.OWNER_NAME + "\n┃❃│ *Prefix :* " + s.PREFIXES + " \n┃❃│ *Commands :* " + _0x5663a1.length + "  \n┃❃│ *Time :* " + _0x515c87 + "\n┃❃│ *Date :* " + _0x1fabd7 + " \n┃❃│ *Mode :* " + _0x2443e9 + "\n┃❃│ *Time Zone :* " + s.TZ + "\n┃❃│ *Total Users :* " + _0x1654b0 + "  \n┃❃│ *Ram :* " + format(os.totalmem() - os.freemem()) + "/" + format(os.totalmem()) + " \n┃❃│ *Uptime :* " + runtime(process.uptime()) + " \n┃❃╰───────────────\n╰─────✧The-GOAT✧─────◆ \n\n";
+  let _0x34fa7b = "\n*" + _0x54a9ac + " " + _0x37fab2 + "*\n\n╭────✧𝐏𝐑𝐈𝐍𝐂𝐄𝐒𝐒 𝐔𝐌𝐀𝐍𝐃𝐀✧────◆\n┃❃╭──────────────\n┃❃│ *User :*  " + s.OWNER_NAME + "\n┃❃│ *Prefix :* " + s.PREFIXES + " \n┃❃│ *Commands :* " + _0x5663a1.length + "  \n┃❃│ *Time :* " + _0x515c87 + "\n┃❃│ *Date :* " + _0x1fabd7 + " \n┃❃│ *Mode :* " + _0x2443e9 + "\n┃❃│ *Time Zone :* " + s.TZ + "\n┃❃│ *Total Users :* " + _0x1654b0 + "  \n┃❃│ *Ram :* " + format(os.totalmem() - os.freemem()) + "/" + format(os.totalmem()) + " \n┃❃│ *Uptime :* " + runtime(process.uptime()) + " \n┃❃╰───────────────\n╰─────✧The-GOAT✧─────◆ \n\n";
   let _0x142c3e = "*◇ PRINCESS_UMANDA COMMANDS ◇*\n\n";
   const _0x335ce1 = Object.keys(_0x15ac30).sort();
   let _0x181763 = 1;
@@ -480,7 +480,7 @@ king(_0x342a55, async (_0xe58255, _0x37f243, _0x10613e) => {
     }
     _0x142c3e += "\n│╰───────────\n╰══════════════⊷\n";
   }
-  _0x142c3e += readmore + "\n◇ *THE MAHIYA MD V2* ◇\n\n   *Released: 22.2.2024*\n   \n _Thanks For choosing PRINCESS_UMANDA_\n\n  Created by *France King ©²0²⁴* \n  \n     *KEEP USING PRINCESS_UMANDA*\n";
+  _0x142c3e += readmore + "\n◇ *THE MAHIYA MD V2* ◇\n\n   *Released: 22.2.2024*\n   \n _Thanks For choosing PRINCESS_UMANDA_\n\n  Created by *MIHIRANGA* \n  \n     *KEEP USING PRINCESS_UMANDA*\n";
   const _0x4d1576 = s.URL.split(",").map(_0x1dd6fc => _0x1dd6fc.trim());
   const _0x50e709 = _0x4d1576[Math.floor(Math.random() * _0x4d1576.length)];
   try {
@@ -530,7 +530,7 @@ king(_0x3f2193, async (_0x5d7d6f, _0x22df35, _0x257898) => {
   let {
     cm: _0x35105d
   } = require(__dirname + "/../france/king");
-  let _0x4d4b08 = "*◇THE FLASH MULTI DEVICE HELP◇*\n\n";
+  let _0x4d4b08 = "*◇THE PRINCESS_UMANDA HELP◇*\n\n";
   const _0x1e5313 = {};
   _0x35105d.forEach(_0x2e8f3f => {
     const _0x3e3798 = _0x2e8f3f.categorie.toUpperCase();
