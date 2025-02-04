@@ -1,9 +1,9 @@
 {
-  "name": "FLASH-MD",
-  "description": "An easy and simple WhatsApp bot developed by France King",
+  "name": "PRINCESS_UMANDA",
+  "description": "An easy and simple WhatsApp bot developed by MIHIRANGA",
   "keywords": ["bot", "node", "baileys", "whatsapp"],
-  "logo": "https://telegra.ph/file/dfccbf12397757c321ac4.jpg",
-  "repository": "https://github.com/franceking1/Flash-Md",
+  "logo": "https://i.ibb.co/Xr29V5bn/4b355f8309ae5bca.jpg",
+  "repository": "https://github.com/newtonwwmp/PRINCESS_UMANDA",
   "succes_url": "/",
   "stack": "heroku-24",
 
